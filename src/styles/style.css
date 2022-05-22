@@ -282,3 +282,94 @@ p {
 .cognitive-biases-item:not(:first-child):hover .cognitive-biases-description {
   color: var(--white);
 }
+
+.card {
+  position: relative;
+  z-index: -2;
+}
+
+.card-dark {
+  background-color: var(--brown);
+}
+
+.card-light {
+  background-color: var(--light);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.card-image {
+  vertical-align: middle;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.ikea-effect-title-block {
+  padding-left: 30px;
+}
+
+.card-pre-title {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Neucha", cursive;
+}
+
+.ikea-effect-pre-title {
+  color: var(--translucentDark);
+}
+
+.card-title {
+  margin-bottom: 30px;
+
+  font-weight: 400;
+}
+
+.card-title-description {
+  font-weight: 400;
+  font-size: 34px;
+  font-family: "Neucha", cursive;
+  line-height: 41px;
+}
+
+.card-how-does-bias {
+  height: 28px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: normal;
+  text-transform: uppercase;
+
+  background-color: var(--brown);
+}
+
+.card-how-does-bias-white {
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+.card-description-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-description {
+  flex-basis: 50%;
+}
+
+.card-description-left {
+  margin-right: 15px;
+}
+
+.card-description-right {
+  margin-left: 15px;
+}
+
