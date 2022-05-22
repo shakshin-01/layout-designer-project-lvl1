@@ -376,3 +376,15 @@ p {
 .premature-optimization-pre-title {
   color: var(--translucentWhite);
 }
+
+.distortion-of-novelty-title-block {
+  padding-left: 30px;
+}
+
+.card-description-left-distortion-of-novelty {
+  margin-right: 15px;
+}
+
+.card-description-right-distortion-of-novelty {
+  margin-left: 15px;
+}
