@@ -202,3 +202,83 @@ p {
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
+
+.cognitive-biases {
+  padding-top: 150px;
+
+  background-color: var(--basicDark);
+}
+
+.cognitive-biases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
+.cognitive-biases-item {
+  width: 350px;
+  margin-top: 20px;
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+.cognitive-biases-link {
+  text-decoration: none;
+}
+
+.white-color {
+  color: var(--white);
+}
+
+.cognitive-biases-item-description {
+  padding: 0;
+
+  background-color: var(--basicDark);
+}
+
+.cognitive-biases-list-description {
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.cognitive-biases-item-count {
+  margin-bottom: 40px;
+
+  color: var(--basicDark);
+  font-size: 64px;
+  font-family: "Neucha", cursive;
+  line-height: 1;
+}
+
+.cognitive-biases-title {
+  margin-bottom: 16px;
+
+  color: var(--basic);
+  font-weight: 400;
+}
+
+.cognitive-biases-description {
+  color: var(--dark);
+  font-weight: 400;
+  text-transform: inherit;
+}
+
+.cognitive-biases-item:not(:first-child):hover {
+  background-color: var(--basic);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-item-count {
+  color: var(--white);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-title {
+  color: var(--white);
+}
+
+.cognitive-biases-item:not(:first-child):hover .cognitive-biases-description {
+  color: var(--white);
+}
