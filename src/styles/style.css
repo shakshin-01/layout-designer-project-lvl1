@@ -35,149 +35,170 @@
 }
 
 body {
-    color: var(--dark);
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.6em;
-  
-    background-color: var(--white);
-  }
-  
-  .container {
-    width: 1110px;
-    margin: 0 auto;
-  }
-  
-  section {
-    padding: 100px 0;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    margin: 0;
-    padding: 0;
-  
-    color: var(--basic);
-    font-weight: 400;
-    font-family: "Neucha", cursive;
-    line-height: 1.2em;
-  }
-  
-  h1 {
-    font-size: 72px;
-  }
-  
-  h2 {
-    font-size: 60px;
-  }
-  
-  h3 {
-    font-size: 34px;
-  }
-  
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .btn {
-    display: block;
-    width: 148px;
-    height: 49px;
-    border: none;
-  
-    color: var(--white);
-    font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-  
-    background-color: var(--basic);
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background: var(--darkOrange);
-  }
-  
-  .header {
-    position: relative;
-    z-index: 1;
-  
-    padding-top: 100px;
-  
-    overflow: hidden;
-  
-    background-color: var(--light);
-  }
-  
-  .background-basic::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  
-    width: 100%;
-    height: 100%;
-  
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
-  
-    content: "";
-  }
-  
-  .dark-text {
-    color: var(--dark);
-  }
-  
-  .white-text {
-    color: var(--white);
-  }
-  
-  .header-title {
-    position: relative;
-    z-index: 2;
-  
-    font-weight: 400;
-  }
-  
-  .basic-color {
-    color: var(--basic);
-  }
-  
-  .header-image {
-    position: relative;
-    top: -302px;
-    right: -298px;
-  
-    height: 525px;
-  
-    vertical-align: middle;
-  }
-  
-  .header-description {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -320px;
-  }
-  
-  .header-left-content {
-    margin-right: 30px;
-  }
-  
-  .header-left-content,
-  .header-right-content {
-    flex-basis: 50%;
-  }
-  
-  .btn-header-more {
-    margin-top: 40px;
-    margin-bottom: 100px;
-  }
-  
+  color: var(--dark);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+
+  background-color: var(--white);
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+
+  color: var(--basic);
+  font-weight: 400;
+  font-family: "Neucha", cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: block;
+  width: 148px;
+  height: 49px;
+  border: none;
+
+  color: var(--white);
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: var(--basic);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--darkOrange);
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+
+  padding-top: 100px;
+
+  overflow: hidden;
+
+  background-color: var(--light);
+}
+
+.background-basic::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: "";
+}
+
+.dark-text {
+  color: var(--dark);
+}
+
+.white-text {
+  color: var(--white);
+}
+
+.header-title {
+  position: relative;
+  z-index: 2;
+
+  font-weight: 400;
+}
+
+.basic-color {
+  color: var(--basic);
+}
+
+.header-image {
+  position: relative;
+  top: -302px;
+  right: -298px;
+
+  height: 525px;
+
+  vertical-align: middle;
+}
+
+.header-description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -320px;
+}
+
+.header-left-content {
+  margin-right: 30px;
+}
+
+.header-left-content,
+.header-right-content {
+  flex-basis: 50%;
+}
+
+.btn-header-more {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.about {
+
+  text-align: center;
+}
+
+.about-title {
+  font-weight: 400;
+}
+
+.about-description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-video {
+  position: relative;
+
+  margin-bottom: -200px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
