@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
 @font-face {
   font-weight: 400;
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
@@ -22,16 +18,20 @@
 
 :root {
   --white: #fff;
-  --translucentWhite: #d7ccc0;
+  --translucent-white: #d7ccc0;
   --light: #f5f4f0;
   --basic: #fe8a02;
-  --darkOrange: #ea7600;
-  --basicDark: #42413c;
+  --dark-orange: #ea7600;
+  --basic-dark: #42413c;
   --dark: #2a2626;
-  --translucentDark: #908d8b;
+  --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --ligthGrey: #757575;
+  --light-gray: #757575;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -60,7 +60,7 @@ h3 {
 
   color: var(--basic);
   font-weight: 400;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -85,7 +85,6 @@ p {
   display: block;
   width: 148px;
   height: 49px;
-  border: none;
 
   color: var(--white);
   font-weight: 700;
@@ -95,11 +94,13 @@ p {
   text-decoration: none;
 
   background-color: var(--basic);
+  border: none;
+
   cursor: pointer;
 }
 
 .btn:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .header {
@@ -182,7 +183,6 @@ p {
 }
 
 .about {
-
   text-align: center;
 }
 
@@ -200,13 +200,13 @@ p {
 
   margin-bottom: -200px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .cognitive-biases {
   padding-top: 150px;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .cognitive-biases-list {
@@ -237,7 +237,7 @@ p {
 .cognitive-biases-item-description {
   padding: 0;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .cognitive-biases-list-description {
@@ -248,9 +248,9 @@ p {
 .cognitive-biases-item-count {
   margin-bottom: 40px;
 
-  color: var(--basicDark);
+  color: var(--basic-dark);
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1;
 }
 
@@ -305,7 +305,7 @@ p {
 .card-image {
   vertical-align: middle;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .ikea-effect-title-block {
@@ -315,15 +315,15 @@ p {
 .card-pre-title {
   font-weight: 500;
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
 }
 
 .pre-title-dark {
-  color: var(--translucentDark);
+  color: var(--translucent-dark);
 }
 
 .pre-title-white {
-  color: var(--translucentWhite);
+  color: var(--translucent-white);
 }
 
 .card-title {
@@ -335,7 +335,7 @@ p {
 .card-title-description {
   font-weight: 400;
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 41px;
 }
 
@@ -378,7 +378,7 @@ p {
 }
 
 .pre-title-translucent {
-  color: var(--translucentWhite);
+  color: var(--translucent-white);
 }
 
 .distortion-of-novelty-title-block {
@@ -399,8 +399,9 @@ p {
 
 .footer-block {
   display: flex;
-  background-color: var(--basicDark);
   height: 190px;
+
+  background-color: var(--basic-dark);
 }
 
 footer {
@@ -413,7 +414,7 @@ footer {
   height: 190px;
   margin-bottom: 60px;
 
-  background-color: var(--basicDark);
+  background-color: var(--basic-dark);
 }
 
 .form-description {
@@ -427,7 +428,7 @@ footer {
 
   font-weight: 400;
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 40px;
 }
 
@@ -458,7 +459,7 @@ footer {
 }
 
 .footer-input-email::placeholder {
-  color: var(--ligthGrey);
+  color: var(--light-gray);
   font-weight: 40;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
@@ -469,14 +470,15 @@ footer {
 
   width: 70px;
   height: 50px;
-  border: none;
 
   background-color: var(--basic);
+  border: none;
+
   cursor: pointer;
 }
 
 .btn-submit-footer:hover {
-  background: var(--darkOrange);
+  background: var(--dark-orange);
 }
 
 .btn-submit-footer::before {

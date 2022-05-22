@@ -1,6 +1,7 @@
 extends:
   - stylelint-config-standard-scss
   - stylelint-config-rational-order
+  - stylelint-config-rational-order-fix
 
 plugins:
   - stylelint-scss
