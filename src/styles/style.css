@@ -373,7 +373,7 @@ p {
   margin-left: 15px;
 }
 
-.premature-optimization-pre-title {
+.pre-title-translucent {
   color: var(--translucentWhite);
 }
 
@@ -387,4 +387,8 @@ p {
 
 .card-description-right-distortion-of-novelty {
   margin-left: 15px;
+}
+
+.hyperbolic-depreciation-card-title-description {
+  padding-right: 30px;
 }
