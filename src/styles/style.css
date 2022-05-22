@@ -318,8 +318,12 @@ p {
   font-family: "Neucha", cursive;
 }
 
-.ikea-effect-pre-title {
+.pre-title-dark {
   color: var(--translucentDark);
+}
+
+.pre-title-white {
+  color: var(--translucentWhite);
 }
 
 .card-title {
