@@ -373,3 +373,6 @@ p {
   margin-left: 15px;
 }
 
+.premature-optimization-pre-title {
+  color: var(--translucentWhite);
+}
